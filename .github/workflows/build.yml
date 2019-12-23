@@ -13,7 +13,7 @@ jobs:
         submodules: true
 
     # Install NPM prerequisites
-    - run: sudo apt update && apt install npm && npm install
+    - run: sudo apt-get update && sudo apt-get install npm && npm install
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
