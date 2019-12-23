@@ -23,7 +23,7 @@ jobs:
 
     - name: Build
       run: |
-        hugo --minify --gc
+        HUGO_ENV="production" hugo --minify --gc
         # Ensure the CNAME file is maintained when publishing
         cp CNAME public
 
