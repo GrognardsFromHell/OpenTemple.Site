@@ -24,8 +24,16 @@ jobs:
     - name: Build
       run: |
         HUGO_ENV="production" hugo --minify --gc
+
+        # Move the hugo stuff into a subdir for now until we're ready to publish
+        mv public unreleased
+        mkdir public
+        mv unreleased public
+
         # Ensure the CNAME file is maintained when publishing
         cp CNAME public
+
+        echo "Coming Soon" > public/index.html
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
