@@ -1,8 +1,17 @@
+$navbarGradient: linear-gradient(180deg, #181818 0%, #330d05 100%);
 
-// Our logo is a bit large to be embedded as svg in every page, so we chose to go 
+// Our logo is a bit large to be embedded as svg in every page, so we chose to go
 // with an img tag, which needs other styling here
+.navbar {
+  background: $navbarGradient;
+}
+
+.navbar-bg-onscroll {
+    background: $navbarGradient !important;
+}
+
 .navbar-logo > img {
-    display: inline-block;
-    margin: 0 10px;
-    height: 30px;
+  display: inline-block;
+  margin: 0 10px;
+  height: 30px;
 }
