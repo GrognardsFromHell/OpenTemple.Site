@@ -1,0 +1,8 @@
+
+// Our logo is a bit large to be embedded as svg in every page, so we chose to go 
+// with an img tag, which needs other styling here
+.navbar-logo > img {
+    display: inline-block;
+    margin: 0 10px;
+    height: 30px;
+}
