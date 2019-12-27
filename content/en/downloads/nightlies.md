@@ -3,7 +3,7 @@ title: "Nightly Builds"
 linkTitle: "Nightly Builds"
 ---
 
-{{% blocks/section color="900" type="section" %}}
+{{% blocks/section type="section" %}}
 
 # <i class="fas fa-moon"></i> Nightly Builds
 

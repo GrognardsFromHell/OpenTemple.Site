@@ -7,6 +7,12 @@ $google_font_name: "Libre Franklin";
 $google_font_family: "Libre Franklin:300,300i,400,400i,700,700i";
 
 // $primary: #fab946;
-$primary: #681004;
-$secondary: #298d8b;
+$primary: #991b0c;
+$secondary: #383838;
 $ternary: #380702;
+
+$dark: #100702;
+
+$blue: lighten(#30638e, 20%);
+
+$navbarGradient: linear-gradient(180deg, #181818 0%, #330d05 100%);
