@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://opentemple.de/unreleased/"
 title = "OpenTemple"
 
 enableRobotsTXT = true
