@@ -24,7 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        HUGO_ENV="production" hugo --minify --gc
+        HUGO_ENV="production" hugo --gc
 
         # Move the hugo stuff into a subdir for now until we're ready to publish
         mv public unreleased
