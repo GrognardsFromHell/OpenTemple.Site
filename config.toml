@@ -69,6 +69,8 @@ weight = 1
 [params]
 copyright = "OpenTemple Team"
 
+nightly_installer = "https://github.com/GrognardsFromHell/OpenTemple.Native/releases/download/nightly_installer%2Fv1/InstallOpenTempleNightly.exe"
+
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
 

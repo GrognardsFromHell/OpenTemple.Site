@@ -1,1 +1,69 @@
-hey nightlies
+{{ $windowsInfo := getJSON "https://nightlies.opentemple.de/windows/info.json" }}
+{{ $windowsBuildTime := $windowsInfo.buildInfo.buildTime | time }}
+
+<a id="nightlies-windows-app" class="td-offset-anchor"></a>
+<section class="row td-box td-box--0 td-box--gradient td-box--height-auto">
+    <div class="col">
+        <div class="row">
+            <h2><i class="fab fa-windows"></i> Windows 10</h2>
+        </div>
+        <p class="row">
+            <strong class="mr-1">Last Update:</strong>
+            <time datetime="{{$windowsInfo.buildInfo.buildTime}}">
+                {{$windowsBuildTime.Format "02 Jan 2006 15:04 MST"}}
+            </time>
+        </p>
+        <p class="row">
+            The nightly builds for Windows 10 are provided as Windows App packages which allow for smooth automated
+            updates and clean removal.
+        </p>
+        <p class="row">
+            We recommend using the automated installer for OpenTemple nightly builds. It will automatically
+            install the self-signed certificate required to install the App.
+        </p>
+        <p class="row">
+            <a href="{{ .Site.Params.nightly_installer }}" download class="btn btn-lg btn-primary">Download
+                Installer <i class="fas fa-download ml-1"></i></a>
+        </p>
+    </div>
+</section>
+
+<a id="nightlies-manual" class="td-offset-anchor"></a>
+
+<section class="td-box">
+    <div class="col">
+        <div class="row">
+            <h2><i class="fas fa-file-archive"></i> Alternative Versions</h2>
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Operating System</th>
+                    <th>Architecture</th>
+                    <th>Remarks</th>
+                    <th>Last Update</th>
+                    <th>Download</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{ range $platform,$platformInfo := $windowsInfo.zip }}
+                <tr>
+                    <td>Windows 7 / 8 / 10</td>
+                    <td>{{ $platform }}</td>
+                    <td>Portable ZIP, no updater</td>
+                    <td>
+                        <time datetime="{{$windowsInfo.buildInfo.buildTime}}">
+                            {{$windowsBuildTime.Format "02 Jan 2006 15:04 MST"}}
+                        </time>
+                    </td>
+                    <td>
+                        <a href="{{$platformInfo.url}}" download>{{path.Base $platformInfo.url}}</a>
+                        ({{ printf "%.0f" (div $platformInfo.sizeInBytes 1000000.0) }} MB)
+                    </td>
+                </tr>
+                {{ end }}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
