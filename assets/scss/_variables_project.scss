@@ -16,3 +16,6 @@ $dark: #100702;
 $blue: lighten(#30638e, 20%);
 
 $navbarGradient: linear-gradient(180deg, #181818 0%, #330d05 100%);
+$primary-light: lighten($primary, 75%) !default;
+
+$td-box-colors: $dark, $secondary, $primary-light;
