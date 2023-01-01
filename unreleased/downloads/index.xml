@@ -1,0 +1,136 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenTemple – Downloads</title>
+    <link>https://opentemple.de/unreleased/downloads/</link>
+    <description>Recent content in Downloads on OpenTemple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://opentemple.de/unreleased/downloads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Downloads: Nightly Builds</title>
+      <link>https://opentemple.de/unreleased/downloads/nightlies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://opentemple.de/unreleased/downloads/nightlies/</guid>
+      <description>
+        
+        
+        
+
+
+ 
+&lt;a id=&#34;td-block-0&#34; class=&#34;td-offset-anchor&#34;&gt;&lt;/a&gt;
+&lt;section class=&#34;row td-box td-box--0 td-box--gradient td-box--height-auto&#34;&gt;
+	&lt;div class=&#34;col&#34;&gt;
+		&lt;div class=&#34;row section&#34;&gt;
+			&lt;h1 id=&#34;i-classfas-fa-mooni-nightly-builds&#34;&gt;&lt;i class=&#34;fas fa-moon&#34;&gt;&lt;/i&gt; Nightly Builds&lt;/h1&gt;
+&lt;p&gt;We provide fully automated builds of the latest OpenTemple code for testing and development purposes.&lt;/p&gt;
+&lt;p&gt;Please keep in mind that these builds may be outright broken or corrupt your save games. In case you have
+any valuable save data, &lt;em&gt;please back it up&lt;/em&gt; before using a nightly build!&lt;/p&gt;
+
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+
+
+
+&lt;a id=&#34;nightlies-windows-app&#34; class=&#34;td-offset-anchor&#34;&gt;&lt;/a&gt;
+&lt;section class=&#34;row td-box td-box--1 td-box--gradient td-box--height-auto&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+        &lt;h2&gt;&lt;i class=&#34;fab fa-windows&#34;&gt;&lt;/i&gt; Windows 10&lt;/h2&gt;
+            &lt;p&gt;
+                &lt;strong class=&#34;mr-1&#34;&gt;Last Update:&lt;/strong&gt;
+                &lt;time datetime=&#34;2023-01-01T19:44:27.3265308Z&#34;&gt;
+                    01 Jan 2023 19:44 UTC
+                &lt;/time&gt;
+            &lt;/p&gt;
+            &lt;p&gt;
+                The nightly builds for Windows 10 are provided as Windows App packages which allow for smooth automated
+                updates and clean removal.
+            &lt;/p&gt;
+            &lt;p&gt;
+                We recommend using the automated installer for OpenTemple nightly builds. It will automatically
+                install the self-signed certificate required to install the App.
+            &lt;/p&gt;
+            &lt;p&gt;
+                &lt;a href=&#34;https://github.com/GrognardsFromHell/OpenTemple.Native/releases/download/nightly_installer%2Fv1/InstallOpenTempleNightly.exe&#34; download class=&#34;btn btn-lg btn-primary&#34;&gt;Download
+                    Installer &lt;i class=&#34;fas fa-download ml-1&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;a id=&#34;nightlies-manual&#34; class=&#34;td-offset-anchor&#34;&gt;&lt;/a&gt;
+
+&lt;section class=&#34;row td-box td-box--2&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h2&gt;&lt;i class=&#34;fas fa-file-archive&#34;&gt;&lt;/i&gt; Alternative Versions&lt;/h2&gt;
+            &lt;p&gt;
+                The following files offer alternative means to install the OpenTemple nightly builds and only
+                recommended for advanced users.
+            &lt;/p&gt;
+
+            &lt;table class=&#34;table&#34;&gt;
+                &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Operating System&lt;/th&gt;
+                    &lt;th&gt;Architecture&lt;/th&gt;
+                    &lt;th&gt;Remarks&lt;/th&gt;
+                    &lt;th&gt;Last Update&lt;/th&gt;
+                    &lt;th&gt;Download&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                
+                &lt;tr&gt;
+                    &lt;td&gt;Windows 7 / 8 / 10&lt;/td&gt;
+                    &lt;td&gt;x64&lt;/td&gt;
+                    &lt;td&gt;Portable ZIP, no updater&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;time datetime=&#34;2023-01-01T19:44:27.3265308Z&#34;&gt;
+                            01 Jan 2023 19:44 UTC
+                        &lt;/time&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;a href=&#34;https://nightlies.opentemple.de/windows/OpenTemple_x64.zip&#34; download&gt;OpenTemple_x64.zip&lt;/a&gt;
+                        (54 MB)
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                
+                &lt;tr&gt;
+                    &lt;td&gt;Windows 7 / 8 / 10&lt;/td&gt;
+                    &lt;td&gt;x86&lt;/td&gt;
+                    &lt;td&gt;Portable ZIP, no updater&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;time datetime=&#34;2023-01-01T19:44:27.3265308Z&#34;&gt;
+                            01 Jan 2023 19:44 UTC
+                        &lt;/time&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;a href=&#34;https://nightlies.opentemple.de/windows/OpenTemple_x86.zip&#34; download&gt;OpenTemple_x86.zip&lt;/a&gt;
+                        (51 MB)
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

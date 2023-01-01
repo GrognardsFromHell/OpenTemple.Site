@@ -1,0 +1,16 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenTemple – OpenTemple</title>
+    <link>https://opentemple.de/unreleased/</link>
+    <description>Recent content on OpenTemple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://opentemple.de/unreleased/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+  </channel>
+</rss>
